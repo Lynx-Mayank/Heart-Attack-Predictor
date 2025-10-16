@@ -2,9 +2,11 @@
 
 Technical Summary – 
 1. Reviews
+
 Cardiovascular diseases remain one of the leading causes of death worldwide. Early prediction of heart attack risk can save lives through preventive measures and timely medical attention. The proposed model leverages machine learning techniques to analyse health parameters and lifestyle factors, providing a risk assessment for potential heart attacks. It utilises a synthetic dataset with multiple health-related features to predict whether a person is at low, medium, or high risk of a heart attack.
 ________________________________________
 2. Objective
+
 The primary objective of this project is to develop a machine learning model that predicts the risk of a heart attack based on a person's health indicators, lifestyle habits, and medical history.
 The model aims to:
 •	Identify individuals at high risk.
@@ -12,6 +14,7 @@ The model aims to:
 •	Demonstrate how data-driven insights can assist in healthcare decision-making.
 ________________________________________
 3. Dataset
+
 The dataset used is “Heart Attack Prediction Dataset.xlsx”, containing health and demographic information for multiple individuals.
 It includes features such as:
 •	Numerical Attributes: Age, Cholesterol, Blood Pressure, Heart Rate, Stress Level, Triglycerides, etc.
@@ -42,6 +45,7 @@ The workflow of the project consists of the following key steps:
 •	Outputs both the predicted class (Low/Medium/High) and the probability score.
 ________________________________________
 5. Tools and Libraries
+
 Library	Purpose
 pandas	Data manipulation and analysis
 numpy	Numerical computations
@@ -51,6 +55,7 @@ LabelEncoder, OneHotEncoder, StandardScaler	Data encoding and normalisation
 RandomForestClassifier	Prediction model for classification tasks
 ________________________________________
 6. Key Learnings
+
 •	Understood how health parameters can influence heart attack risk.
 •	Learned how to preprocess mixed-type (numerical + categorical) data effectively.
 •	Gained experience with encoding, scaling, and model evaluation techniques.
@@ -59,6 +64,7 @@ ________________________________________
 ________________________________________
  
 7. Conclusion
+
 The developed model accurately predicts the risk level of heart attacks based on various health and lifestyle factors.
 It demonstrates how machine learning can assist in preventive healthcare by identifying potential risk groups.
 While the model performs well on the given dataset, future improvements could include:
@@ -66,7 +72,8 @@ While the model performs well on the given dataset, future improvements could in
 •	Integrating the system into a web or mobile app for user-friendly access.
 •	Using explainable AI techniques to make predictions more transparent.
 
-Output screenshot - 
+Output screenshots -
+
 <img width="1056" height="393" alt="image" src="https://github.com/user-attachments/assets/428ee39d-3845-45d7-b5c7-d559252097b7" />
 <img width="804" height="590" alt="image" src="https://github.com/user-attachments/assets/38dd2c0d-f414-4736-8060-3bb176cd9ede" />
 <img width="639" height="721" alt="image" src="https://github.com/user-attachments/assets/dfe3cf45-3bdb-41ee-8efe-458f6b4754c0" />
