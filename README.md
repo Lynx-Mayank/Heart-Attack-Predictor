@@ -21,6 +21,7 @@ It includes features such as:
 This combination of attributes provides a comprehensive view of the factors that influence the likelihood of a heart attack.
 ________________________________________
 4. Technical Workflow
+
 The workflow of the project consists of the following key steps:
 1.	Data Loading and Preprocessing
 •	Loaded the dataset using pandas.
